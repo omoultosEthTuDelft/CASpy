@@ -1,0 +1,45 @@
+Temperature (K)
+313.15
+Number of Species
+8
+C0 (initial guess) / [mol/dm3]
+1.0e-10 3.0e-10 1.0e-10 55.0638 2.500E-05 1.0e-10 1.0e-10 2.5
+Names of species
+HCO3- H3O+  CO3--  H2O  CO2  OH-  MDEAH+  MDEA
+Charges
+-1 1 -2 0 0 -1 1 0
+Name of the solvent
+H2O
+Pure Density of the Solvent / [mol/dm3]
+55.0638
+mu^0 species / [kJ/mol] (only for the calculation of desired equilibrium constants)
+0.0 -171.986 0.0 -858.154 0.0 0.0 -6272.15 -6661.2076
+mu^ex species / [kJ/mol] (only for the calculation of desired equilibrium constants)
+0.0 -362.079 0.0 -26.51 0.0 0.0 -283.688 -15.869
+Impose Ptotal and gas composition? (T=True or F=False)
+F
+Ptotal / [kPa] (only used if Ptotal and gas composition is imposed)
+0.0
+Gas phase species
+CO2
+Gas phase composition (only used if Ptotal and gas composition is imposed)
+1
+mu^ex gases / [kJ/mol] # mu^ex of gases in the solvent.
+0.41013
+Ctotal,gas / [mol/dm3] (Total concentration of the gases in liquid phase)
+2.500E-05 4.059E-05 6.592E-05 1.070E-04 1.738E-04 2.822E-04 4.582E-04 7.441E-04 1.208E-03 1.962E-03 3.186E-03 5.173E-03 8.400E-03 1.364E-02 2.215E-02 3.596E-02 5.839E-02 9.482E-02 1.540E-01 2.500E-01 4.000E-01 5.500E-01 7.000E-01 8.500E-01 1.000E+00 1.150E+00 1.300E+00 1.450E+00 1.600E+00 1.750E+00 1.900E+00 2.050E+00 2.200E+00 2.350E+00 2.500E+00 2.625E+00 2.750E+00 2.875E+00 3.000E+00 3.125E+00 3.250E+00 3.375E+00 3.500E+00 3.625E+00 3.750E+00 3.875E+00 4.000E+00 4.125E+00 4.250E+00
+Number of Reactions
+4
+Stoichiometry
+1 1 0 -2 -1 0 0 0 
+-1 1 1 -1 0 0 0 0 
+0 1 0 -1 0 0 -1 1
+0 1 0 -2 0 1 0 0
+ln(K) for reactions (if QMMC then computed using K_des expression)
+-18.34 -27.55 QMMC -39.21
+Number of mass balance equations (excluding charge neutrality)
+3
+Balances
+1 3 5
+7 8 
+2 4 6
