@@ -1,0 +1,41 @@
+Temperature (K)
+313.15
+Number of Species
+3
+C0 (initial guess) / [mol/dm3]
+20 10 20
+Names of species
+A B C
+Charges
+0 0 0
+Name of the solvent
+C
+Pure Density of the Solvent / [mol/dm3]
+20
+mu^0 species / [kJ/mol] (only for the calculation of desired equilibrium constants)
+-5.0 -7.0 0.0
+mu^ex species / [kJ/mol] (only for the calculation of desired equilibrium constants)
+-0.32 -0.93 0.0
+Impose Ptotal and gas composition? (T=True or F=False)
+F
+Ptotal / [kPa] (only used if Ptotal and gas composition is imposed)
+0.0
+Gas phase species
+C
+Gas phase composition (only used if Ptotal and gas composition is imposed)
+1
+mu^ex gases / [kJ/mol] # mu^ex of gases in the solvent.
+0.0
+Ctotal,gas / [mol/dm3] (Total concentration of the gases in liquid phase)
+1
+Number of Reactions
+1
+Stoichiometry
+-1 1 0
+ln(K) for reactions (if QMMC then computed using K_des expression)
+QMMC
+Number of mass balance equations (excluding charge neutrality)
+1
+Balances
+1 2
+
